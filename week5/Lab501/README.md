@@ -6,3 +6,5 @@ then draw them on paper manually and submit to TA.
 
 
 ![550610515](http://image.dek-d.com/27/0507/1463/119630295)
+
+![fuck you ta](https://pbs.twimg.com/profile_images/1127419615/7_400x400.JPG)
