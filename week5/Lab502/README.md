@@ -13,3 +13,6 @@ Suppose that you have to design a data model for university application. The dat
 4. Every employee works in an office.
 
 Create a UML class diagram according to the requirement above. Draw the diagram on paper manually and submit to TA.
+
+
+![570610576](https://www.img.in.th/images/c0e552b8672f3777da61b5331d33b3ab.jpg)
