@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectGuid>{384B23B6-6250-4B04-B644-1C6DC73BAB2A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>ConsoleApplication</AssemblyName>
@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>LAB5</RootNamespace>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -38,6 +41,27 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="week5\Lab501\README.md" />
+    <None Include="week5\Lab502\README.md" />
+    <None Include="week5\Lab503\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="week5\Lab501\LAB501.jpg" />
+    <Content Include="week5\Lab502\LAB502.jpg" />
+    <Content Include="week5\Lab503\Lab503.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="week5\Lab503\design1.cs" />
+    <Compile Include="week5\Lab503\design2.cs" />
+    <Compile Include="week5\Lab503\Program.cs" />
+    <Compile Include="week5\Lab503\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\" />
+    <Folder Include=".vs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
